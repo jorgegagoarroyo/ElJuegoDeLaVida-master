@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El juego de la vida</title>
+    <link rel="stylesheet" href="estilo.css">
+    <!-- <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        .casilla{
+            border: 1px solid;
+            width: 30px;
+            height: 30px;
+            font-size: 10px;
+        }
+        .viva{
+            background-color: lightgreen;
+        }
+        .muerta{
+            background-color: lightgrey;
+        }
+        #universo div{
+            display: flex;
+        }
+        .contenedor{
+            width: 100%;
+        }
+        .tabla{
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+        }
+        .header{
+            background-color: bisque;
+            display: flex;
+            min-height: 130px;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .forma{
+            background-color: black;
+            /*display: flex;*/
+            width: 160px;
+            height: 120px;
+
+        }
+        .foto{
+            box-sizing: border-box;
+            display: flex;
+            height: 100%;
+        }
+
+    </style> -->
+</head>
+<body>
+    <header>
+        <div class="contenedor header">
+            <div class="titulo"><p> <strong>EL juego de la vida</strong> </p></div>
+            <div class="elementos">
+                <div class="seleccion"></div>
+                <div class="forma"></div>
+                <div id="porcentaje"><!-- cambiar porcentaje -->
+                    <span>porcentaje</span>
+                    <input class="porciento" type="number" value="20">
+                </div>
+                <div id="filas"><!-- cambiar filas -->
+                    <span>numero de filas</span>
+                    <input class="filas" type="number" value="20">
+                </div>
+                <div id="columnas"><!-- cambiar columnas -->
+                    <span>numero de columnas</span>
+                    <input class="columnas" type="number" value="20">
+                </div>
+                <div><button id = "crear"> crear universo </button></div>
+                <div><button id= "iniciar"> comenzar </button></div>
+            </div>
+        </div>
+    </header>
+    <main class="contenedor tabla">
+        <div class="app">
+        </div>
+    </main>
+
+    <script src="src/piezas.js"></script>
+    <script src="src/opciones.js"></script>
+    <script src="src/app.js"></script>
+    <!-- <script src=" src/test/testfinal.js"></script> -->
+    <script src="src/loop.js"></script>
+
+</body>
+</html>

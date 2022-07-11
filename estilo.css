@@ -1,0 +1,61 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.header{
+    background-color: bisque;  
+}
+.titulo{
+    font-size: 3em;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+}
+.elementos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.forma{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 120px;
+    box-shadow: 1 1 1 1 bisque;
+}
+#porcentaje, #filas, #columnas{
+    display:flex;
+    flex-direction: column;
+}
+.porciento, .filas, .columnas{
+    width:100px;
+}
+.tabla{
+    margin: 10px 0px;
+    display: flex;
+    justify-content: center;
+
+}
+/*#universo{
+    border: blue solid;
+}*/
+.fila{
+    display: flex;
+}
+.casilla{
+    box-sizing: border-box;
+    border: 1px solid;
+    width: 30px;
+    height: 30px;
+    font-size: 10px;
+}
+.viva{
+    background-color: blue;
+}
+.muerta{
+    background-color: lightgrey;
+}
+        
