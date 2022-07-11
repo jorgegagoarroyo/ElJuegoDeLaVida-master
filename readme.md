@@ -2,6 +2,10 @@
 
 **juego de la vida de conway** un automata celular donde dada una configuracion este siguiendo unas reglas simples evoluciona de forma automatica 
 
+### inicio
+
+abrir el archivo **index.html** en el navegador
+
 ### configuracion
 - porcentaje: de celdas vivas al generar la cuadricula
 
