@@ -4,7 +4,7 @@
 
 ### inicio
 
-abrir el archivo **index.html** en el navegador
+descargar el repositorio y descomprimirlo, luego abrir el archivo **index.html** en el navegador
 
 ### configuracion
 - porcentaje: de celdas vivas al generar la cuadricula
