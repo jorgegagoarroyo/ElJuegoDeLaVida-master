@@ -14,4 +14,4 @@
 ### botones
 -crear univeso: genera una cuadricula y coloca una cantida de celdas vivas aleatoriamente segun el porcentage seleccionado
 
--comenzar: inicia la evolucion de lacuadricula, tampiem permite pausar la evolucion para poder realizar cambios
+-comenzar: inicia la evolucion de lacuadricula, tambien permite pausar la evolucion para poder realizar cambios
